@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public static class PandUtil
 {
@@ -12,10 +14,10 @@ public static class PandUtil
         Debug.Log("Test");
     }
 
-    [UnityEditor.MenuItem("Pandora/Test2 %g")]
+    [UnityEditor.MenuItem("Pandora/CreateGameObject %g")]
     public static void Test2()
     {
-        Debug.Log("Test2");
+        GameObject obj = new GameObject("GameObject");
     }
 #endif
 

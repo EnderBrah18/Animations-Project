@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 1482520813}
   - component: {fileID: 1482520812}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Menu barra de ferramentas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,7 +258,8 @@ Transform:
   m_LocalPosition: {x: 56.812065, y: 2.1262922, z: 12.702105}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1668851484}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1668851480
@@ -359,12 +360,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668851480}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 56.812065, y: 2.1262922, z: 12.702105}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1482520813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -372,4 +373,3 @@ SceneRoots:
   m_Roots:
   - {fileID: 1446122266}
   - {fileID: 1482520813}
-  - {fileID: 1668851484}
