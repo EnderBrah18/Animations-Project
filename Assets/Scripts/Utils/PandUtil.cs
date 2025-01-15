@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class PandUtil : MonoBehaviour
+public static class PandUtil
 {
 #if UNITY_EDITOR
     [UnityEditor.MenuItem("Pandora/Test")]

@@ -18,13 +18,11 @@ namespace Screens
 
         private void Start()
         {
+
+            screenBases.GetRandom();
+
             HideAll();
             ShowByType(startScreen);
-        }
-
-        private void GetRandom()
-        {
-           screenBases[Random.Range(0, screenBases.Count)].animationDuration = 0;
         }
 
         public void ShowByType(ScreenType type)
